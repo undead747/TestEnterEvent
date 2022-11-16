@@ -1,5 +1,5 @@
 // Execute a function when the user presses a key on the keyboard
-document.getElementById("search").addEventListener("keydown", function(event) {
+document.getElementById("search").addEventListener("keypress", function(event) {
     // If the user presses the "Enter" key on the keyboard
     if (event.key === "Enter") {
       // Cancel the default action, if needed
